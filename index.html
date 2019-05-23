@@ -9,16 +9,25 @@
         h2 {
             background-color: #ff0000;
         }
+        h3 {
+            background-color: #08f73c;
+        }
+        h4 {
+            background-color: #1505eb;
+        }
     </style>
 </head>
 <body>
     <h2>Hello World</h2>
-    <h2>Hello World</h2>
-    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
 </body>
 </html>
 <script>
-    document.querySelector('h2').onclick =function(){
+    document.querySelector('h2').onclick = function(){
         alert('hello')
+    }
+    document.querySelector('h4').onmouseenter = function(){
+        this.style.background = 'red'
     }
 </script>
